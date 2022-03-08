@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32210.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "text.analyzer.core", "text.analyzer.core\text.analyzer.core.csproj", "{A012DD93-F334-4694-AE99-69E7CCF98D02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "text.analyzer.data", "text.analyzer.data\text.analyzer.data.csproj", "{025955D3-3F56-4F89-94F0-1A2B995AE3BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "text.analyzer.data", "text.analyzer.data\text.analyzer.data.csproj", "{025955D3-3F56-4F89-94F0-1A2B995AE3BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "text.analyzer.services", "text.analyzer.services\text.analyzer.services.csproj", "{BB55CF5C-090E-4C0D-B788-11DDAC3804E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{025955D3-3F56-4F89-94F0-1A2B995AE3BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{025955D3-3F56-4F89-94F0-1A2B995AE3BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{025955D3-3F56-4F89-94F0-1A2B995AE3BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB55CF5C-090E-4C0D-B788-11DDAC3804E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB55CF5C-090E-4C0D-B788-11DDAC3804E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB55CF5C-090E-4C0D-B788-11DDAC3804E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB55CF5C-090E-4C0D-B788-11DDAC3804E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
